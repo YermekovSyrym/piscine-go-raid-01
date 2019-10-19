@@ -7,8 +7,8 @@ func Raid1a(x,y int) {
 	if x > 0 && y > 0 {
 		//draw top width
 		z01.PrintRune('/')
-		for a := 0; a < x-2; a++ {		
-			z01.PrintRune('*')	
+		for a := 0; a < x-2; a++ {
+			z01.PrintRune('*')
 		}
 		if x > 1 {
 			z01.PrintRune('\\')
@@ -28,8 +28,8 @@ func Raid1a(x,y int) {
 			//draw bottom width
 		if y > 1 {
 			z01.PrintRune('\\')
-			for a := 0; a < x-2; a++ {		
-				z01.PrintRune('*')	
+			for a := 0; a < x-2; a++ {
+				z01.PrintRune('*')
 			}
 			if x > 1 {
 				z01.PrintRune('/')
