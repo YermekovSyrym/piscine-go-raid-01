@@ -36,5 +36,5 @@ func Raid1e(x, y int) {
 			}
 			z01.PrintRune('\n')
 		}
-	} 
+	}
 }
