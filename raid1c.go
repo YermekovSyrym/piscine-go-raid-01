@@ -2,7 +2,7 @@ package student
 
 import "github.com/01-edu/z01"
 
-func Raid1a(x, y int) {
+func Raid1c(x, y int) {
 
 	if x > 0 && y > 0 {
 		//draw top width
