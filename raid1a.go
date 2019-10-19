@@ -1,4 +1,4 @@
-package main
+package piscine-go-raid-01
 
 import "github.com/01-edu/z01"
 
